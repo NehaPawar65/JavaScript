@@ -12,7 +12,8 @@ l = "5";
 v = "34"; 
 city = "Ishwarpur"; 
 
-console.log(l); console.log(b);
+console.log(l); 
+// console.log(b); - ReferenceError: b is not defined
 console.table([c, l, v, city, age]); // Wrapped in an array for a clean table view
 
 var v = 3455;
